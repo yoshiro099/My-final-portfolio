@@ -1,0 +1,82 @@
+.title {
+  font-size: 50px;
+}
+@media (max-width: 767px) {
+  .title {
+    font-size: 32px;
+  }
+}
+
+.title-link {
+  font-size: 40px;
+}
+
+.title-name {
+  font-size: 30px;
+}
+@media (max-width: 767px) {
+  .title-name {
+    font-size: 25px;
+    margin-bottom: 22px;
+  }
+}
+.title-name--mb38 {
+  margin-bottom: 38px;
+}
+.title-name--center {
+  text-align: center;
+}
+.title-name--color-wh {
+  color: #D7D7D7;
+}
+
+.title-section {
+  font-size: 25px;
+}
+@media screen and (max-width: 1200px) {
+  .title-section {
+    font-size: 20px;
+  }
+}
+
+.title-content {
+  font-size: 30px;
+}
+@media (max-width: 767px) {
+  .title-content {
+    font-size: 25px;
+    text-align: center;
+  }
+}
+.title-content--space-letter {
+  letter-spacing: 5.6px;
+}
+.title-content--center {
+  text-align: center;
+}
+.title-content--font-weight {
+  font-weight: 800;
+}
+.title-content--mb22 {
+  margin-bottom: 22px;
+}
+.title-content--mb50 {
+  margin-bottom: 50px;
+}
+.title-content--clr1 {
+  color: #B794F4;
+}
+.title-content--clr2 {
+  color: #101427;
+}
+.title-content--clr3 {
+  color: #fff;
+}
+.title-content--clr4 {
+  color: #1C2541;
+}
+
+.mv-title-name {
+  font-size: 70px;
+  letter-spacing: 5px;
+}/*# sourceMappingURL=title.css.map */
