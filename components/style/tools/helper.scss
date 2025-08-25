@@ -1,0 +1,62 @@
+@use '../settings/color' as clr;
+@use '../tools/media-queries' as mq;
+
+.font-weight300 {
+  font-weight: 300;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.nav-clr-btn {
+  color: clr.$text-primary;
+}
+
+.nav-clr-active-btn {
+  color: clr.$color-bg-btn;
+}
+
+.description {
+  font-size: 20px;
+  text-align: justify;
+  line-height: 138.7%;
+  @include mq.max(1200px) {
+    font-size: 18px;
+  }
+
+  &--clr1 {
+    color: clr.$text-secondary;
+  }
+
+  &--clr2 {
+    color: clr.$color-bg-primary;
+  }
+}
+
+.bg-cover {
+    background-color: rgba(0, 0, 0, 0.521);
+}
+
+.footer-clr {
+  color: clr.$text-tertiary;
+}
+
+.margin-bottom50 {
+  margin-bottom: 50px;
+}
+
+.portfolio-background {
+  background-color: clr.$color-bg-btn;
+  padding-bottom: 20px;
+}
+
+.portfolio-img-container {
+  @include mq.sp {
+    height: 200px;
+  }
+}
+
+.padding-b200 {
+  padding-block: 200px;
+}
