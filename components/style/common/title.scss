@@ -1,0 +1,98 @@
+@use '../settings/color' as clr;
+@use '../tools/media-queries' as mq;
+
+.title {
+  font-size: 50px;
+  @include mq.sp {
+    font-size: 32px;
+  }
+}
+
+.title-link {
+  font-size: 40px;
+}
+
+.title-name {
+  font-size: 30px;
+  @include mq.sp {
+    font-size: 25px;
+    margin-bottom: 22px;
+  }
+
+  &--mb38 {
+    margin-bottom: 38px;
+  }
+
+  &--center {
+    text-align: center;
+  }
+
+  &--color-wh {
+    color: clr.$secondary-color;
+  }
+}
+
+.title-section {
+  font-size: 25px;
+  @include mq.max(1200px) {
+    font-size: 20px;
+  }
+}
+
+.title-content {
+  font-size: 30px;
+  @include mq.sp {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  &--space-letter {
+    letter-spacing: 5.6px;
+  }
+
+  &--center {
+    text-align: center;
+  }
+
+  &--font-weight {
+    font-weight: 800;
+  }
+
+  &--mb22 {
+    margin-bottom: 22px;
+  }
+
+  &--mb50 {
+    margin-bottom: 50px;
+  }
+
+  &--clr1 {
+    color: clr.$color-obj-text;
+  }
+
+  &--clr2 {
+    color: clr.$text-secondary;
+  }
+
+  &--clr3 {
+    color: clr.$tertiary-color;
+  }
+
+  &--clr4 {
+    color: clr.$color-bg-primary;
+  }
+}
+
+.mv-title-name {
+  font-size: 70px;
+  letter-spacing: 5px;
+}
+
+.contact-info-title {
+  font-size: 50px;
+  letter-spacing: 5.6px;
+  color: clr.$text-tertiary;
+  @include mq.sp {
+    font-size: 30px;
+  }
+}

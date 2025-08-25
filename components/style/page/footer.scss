@@ -1,0 +1,35 @@
+@use '../settings/color' as clr;
+
+.footer {
+  background-color: clr.$footer-bg-color;
+  height: 326px;
+  width: 100%;
+
+  &__main-container {
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    justify-items: center;
+    gap: 43px;
+    padding-top: 60px;
+  }
+
+  &__copyright {
+    font-size: 18px;
+    color: clr.$text-tertiary;
+  }
+
+  &__top {
+    color: clr.$text-tertiary;
+    display: grid;
+    justify-items: center;
+    gap: 9.5px;
+    font-size: 15px;
+    letter-spacing: 9px;
+  }
+
+  &__title-link {
+    margin-inline: 28px;
+    font-size: 28px;
+    color: clr.$text-tertiary;
+  }
+}

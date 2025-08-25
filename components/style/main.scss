@@ -1,0 +1,17 @@
+// global 
+@use './element/global';
+@use './element/reset';
+
+// common parts
+@use './common/title';
+@use './common/image';
+@use './common/wrapper';
+@use './common/container';
+
+// Page    
+@use './page/top.scss';
+@use './page/header';
+@use './page/footer';
+    
+// tools
+@use './tools/helper';
