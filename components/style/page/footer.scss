@@ -27,9 +27,24 @@
     letter-spacing: 9px;
   }
 
-  &__title-link {
+  &__socmed-link {
+    display: flex;
+  }
+
+  &__icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
     margin-inline: 28px;
     font-size: 28px;
     color: clr.$text-tertiary;
+    border: 1px solid clr.$primary-color;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+    
+    &:hover {
+      border: 1px solid clr.$text-tertiary;
+    }
   }
 }
